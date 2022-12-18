@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.building_img{
+    width: 100%;
+    height: 70vh;
+    background-image: url(images/kawaii-1546834_1280.png);
+    background-size:cover;  
+    background-position: center;
+    overflow: hidden;
+}
+.road_img{
+   width: 100%;
+   height:30vh;
+   background-image: url(images/road\ img.webp);
+}
+#bike_img{
+    width: 20%;
+    height: 26vh;
+    position: absolute;
+    left: -250px;
+}
+#btn{
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    border-radius: 10%;
+}
+.btn_div
+{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
